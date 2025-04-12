@@ -2,29 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 /* Reset Css */
 @import url(./header.css);
+@import url(./bootstrap.css);
 @import url(./buttons.css);
 @import url(./main.css);
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family:"Fira Code" "source Sans 3", sans-serif;
-  font-weight: 300;
-  font: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
-  
-}
-
-.container{
-  width: 1024px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.row{
-  display: flex;
-  flex-direction: row;
-}
+@import url(./footer.css);
+@import url(./responsivo-elements.css);
+@import url(./responsivo-background.css);
