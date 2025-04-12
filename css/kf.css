@@ -1,47 +1,29 @@
-header {
-  position: relative;
-  height: 100vh; /* ou o tamanho que quiser pro header */
-  background: url('assets/img/bg.jpg') no-repeat center center/cover; /* se quiser fundo */
-}
-
-/* Faz o nav ficar sobre o conteúdo do header */
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+header{
+  background: #7C5E99;
+  width: 1024px;
+  margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-  padding: 20px 40px;
-  background-color: rgba(0, 0, 0, 0.4); /* fundo escuro com transparência */
-  z-index: 10;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-nav a {
+a{
   color: white;
-  text-decoration: none;
-  font-family: 'Fira Code', monospace;
+  font-size: 20px;
+  font-family: "Fira code", Arial, Helvetica, sans-serif;
   font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: red;
 }
 
-/* Estilo pro botão "Download CV" */
-#buttom {
-  background: #ffffff22;
-  border: 1px solid white;
-  padding: 8px 16px;
-  border-radius: 4px;
-  transition: background 0.3s ease;
-}
-
-#buttom:hover {
-  background: #ffffff44;
-}
-
-.logo {
-  position: absolute;
-  top: 10px;
-  left: 40px;
-  height: 60px; /* ajusta conforme seu logo */
-  z-index: 20; /* maior que o nav */
+#buttom{
+  background-color: #62C370;
+  display: inline-block;
+  height: 60px;
+  width: 140px;
+  line-height: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 5px  5px 0 black;
 }
