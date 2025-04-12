@@ -18,7 +18,7 @@
   body{
     background-position: left -200px;
     background-color: #b1f4ff;
-    width: 915px;
+    width: 100%;
   }
     .container{
     width: 600px;
@@ -70,7 +70,6 @@ footer .row{
   header nav ul li{
     padding: 10px 0;
   }
-  
   
 }
 
